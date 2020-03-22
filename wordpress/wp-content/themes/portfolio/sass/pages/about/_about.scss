@@ -1,0 +1,53 @@
+.about {
+  background-color: rgb(1,1,1);
+  height: 90vh;
+  margin-top: -20px;
+
+  h1 {
+    color: $headingColor;
+    text-transform: uppercase;
+  }
+
+  .about-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .left-part-about {
+      flex-basis: 50%;
+    }
+
+    .right-part-about {
+      flex-basis: 50%;
+
+      h2 {
+        color: wheat;
+        font-family: $bodyFontFamily;
+      }
+
+      p {
+        font-family: $bodyFontFamily;
+        color: white;
+        line-height: 1;
+        display: none;
+      }
+
+      .info {
+        margin-top: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(8,8,8);
+        padding: 2rem 2.5rem;
+
+        .part {
+          flex-basis: 50%;
+
+          h4 {
+            color: white;
+            font-family: $bodyFontFamily;
+          }
+        }
+      }
+    }
+  }
+}

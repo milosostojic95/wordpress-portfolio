@@ -1,6 +1,6 @@
 // base
-@import './base/base';
 @import './base/fonts';
+@import './base/base';
 @import './variables/variables';
 
 //mixins
@@ -10,8 +10,8 @@
 @import './layouts/header';
 @import './layouts/footer';
 
-//sections
-@import './homepage/home';
+//pages
+@import './pages/pages';
 
 //components
 @import './comonents/buttons';

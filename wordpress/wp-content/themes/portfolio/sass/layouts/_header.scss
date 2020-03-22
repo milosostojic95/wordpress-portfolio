@@ -30,6 +30,7 @@ header {
               text-transform: uppercase;
               color: $navLinkColor;
               font-family: $bodyFontFamily;
+              font-weight: normal;
 
               &:hover {
                 color: $navLinkHover;

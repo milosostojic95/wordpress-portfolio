@@ -2,18 +2,6 @@
 Theme Name:Portfolio
 Author: Milos Ostojic
 */
-body {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.row {
-  max-width: 1240px;
-  margin: 0 auto;
-}
-
 @font-face {
   font-family: 'Orkney';
   src: url("./fonts/orkney-bold.woff") format("woff");
@@ -42,6 +30,27 @@ body {
   font-family: 'Wigrum';
   src: url("./fonts/Wigrum-Regular.otf") format("otf");
   font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.row {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: .5rem 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
 }
 
 header {
@@ -85,6 +94,7 @@ header .header-wrapper .main-nav .nav-wrapper .nav-menu-bar .menu-item a {
   text-transform: uppercase;
   color: #fff;
   font-family: "Orkney", sans-serif;
+  font-weight: normal;
 }
 
 header .header-wrapper .main-nav .nav-wrapper .nav-menu-bar .menu-item a:hover {
@@ -149,6 +159,70 @@ header .header-wrapper .main-nav .nav-wrapper .nav-menu-bar .menu-item a:hover {
   line-height: .1;
 }
 
+.about {
+  background-color: #010101;
+  height: 90vh;
+  margin-top: -20px;
+}
+
+.about h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.about .about-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .about-wrapper .left-part-about {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.about .about-wrapper .right-part-about {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.about .about-wrapper .right-part-about h2 {
+  color: wheat;
+  font-family: "Orkney", sans-serif;
+}
+
+.about .about-wrapper .right-part-about p {
+  font-family: "Orkney", sans-serif;
+  color: white;
+}
+
+.about .about-wrapper .right-part-about .info {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #080808;
+  padding: 2rem 2.5rem;
+}
+
+.about .about-wrapper .right-part-about .info .part {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.about .about-wrapper .right-part-about .info .part h4 {
+  color: white;
+  font-family: "Orkney", sans-serif;
+}
+
 .hero-btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -164,5 +238,17 @@ header .header-wrapper .main-nav .nav-wrapper .nav-menu-bar .menu-item a:hover {
   color: white;
   border: 2px solid white;
   padding: 1rem 2rem;
+}
+
+.about-btn {
+  margin-top: 3rem;
+}
+
+.about-btn .contact-btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: orangered;
+  padding: 1rem 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */
