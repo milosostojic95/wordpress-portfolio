@@ -1,4 +1,156 @@
 /*
-    Theme Name: Portfolio
-    Author: Milos Ostojic
+Theme Name:Portfolio
+Author: Milos Ostojic
 */
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.row {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'Orkney';
+  src: url("./fonts/orkney-bold.woff") format("woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Orkney';
+  src: url("./fonts/orkney-regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Wigrum';
+  src: url("./fonts/Wigrum-Bold.otf") format("otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Wigrum';
+  src: url("./fonts/Wigrum-Medium.otf") format("otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Wigrum';
+  src: url("./fonts/Wigrum-Regular.otf") format("otf");
+  font-weight: 400;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #000;
+}
+
+header .main-nav {
+  padding: 1rem 0;
+}
+
+header .main-nav .nav-wrapper .nav-menu-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+header .main-nav .nav-wrapper .nav-menu-bar .menu-item {
+  padding-right: 10px;
+}
+
+header .main-nav .nav-wrapper .nav-menu-bar .menu-item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Orkney", sans-serif;
+}
+
+header .main-nav .nav-wrapper .nav-menu-bar .menu-item a:hover {
+  color: #adadad;
+}
+
+.hero {
+  background-image: url("./assets/man.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 90vh;
+}
+
+.hero .hero-wrapper {
+  padding-top: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.hero .hero-wrapper .social-icons i {
+  color: #9e9e9e;
+  padding-right: 1.5rem;
+  font-size: 25px;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.hero .hero-wrapper .social-icons i:nth-child(4) {
+  padding-right: 0;
+}
+
+.hero .hero-wrapper .social-icons i:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.hero .hero-wrapper .hero-heading h1 {
+  font-size: 12px;
+  font-family: "Orkney", sans-serif;
+  font-weight: normal;
+  color: #fff;
+  display: none;
+}
+
+.hero .hero-wrapper .anim-heading {
+  color: white;
+}
+
+.hero .hero-wrapper .anim-heading h1 {
+  font-size: 50px;
+  font-family: "Orkney", sans-serif;
+  font-weight: normal;
+}
+
+.hero-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 100%;
+}
+
+.hero-btn a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 1rem 2rem;
+}
+/*# sourceMappingURL=style.css.map */
