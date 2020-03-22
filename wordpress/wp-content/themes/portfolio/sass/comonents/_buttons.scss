@@ -6,8 +6,8 @@
 
   a {
     text-decoration: none;
-    color: white;
-    border: 2px solid white;
+    color: $headingColor;
+    border: 2px solid $borderColor;
     padding: 1rem 2rem;
   }
 }
@@ -17,8 +17,8 @@
   .contact-btn {
     text-transform: uppercase;
     text-decoration: none;
-    color: white;
-    background-color: orangered;
+    color: $headingColor;
+    background-color: $navLogoBg;
     padding: 1rem 1.5rem;
   }
 }

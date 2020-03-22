@@ -14,7 +14,7 @@
     .social-icons {
 
       i {
-        color: rgb(158,158,158);
+        color: $socialIconColor;
         padding-right: 1.5rem;
         font-size: 25px;
         cursor: pointer;
@@ -41,7 +41,7 @@
     }
 
     .anim-heading {
-      color: white;
+      color: $headingColor;
 
       h2 {
         font-size: 50px;

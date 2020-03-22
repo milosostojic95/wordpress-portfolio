@@ -49,10 +49,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-p {
-  margin: 0;
-}
-
 header {
   background: #000;
 }
@@ -145,18 +141,16 @@ header .header-wrapper .main-nav .nav-wrapper .nav-menu-bar .menu-item a:hover {
   font-family: "Orkney", sans-serif;
   font-weight: normal;
   color: #fff;
-  line-height: .1;
 }
 
 .hero .hero-wrapper .anim-heading {
-  color: white;
+  color: #fff;
 }
 
 .hero .hero-wrapper .anim-heading h2 {
   font-size: 50px;
   font-family: "Orkney", sans-serif;
   font-weight: normal;
-  line-height: .1;
 }
 
 .about {
@@ -167,7 +161,11 @@ header .header-wrapper .main-nav .nav-wrapper .nav-menu-bar .menu-item a:hover {
 
 .about h1 {
   color: #fff;
-  text-transform: uppercase;
+  font-size: 42px;
+  text-align: center;
+  padding-top: 2rem;
+  font-family: "Orkney", sans-serif;
+  font-weight: normal;
 }
 
 .about .about-wrapper {
@@ -193,23 +191,40 @@ header .header-wrapper .main-nav .nav-wrapper .nav-menu-bar .menu-item a:hover {
 }
 
 .about .about-wrapper .right-part-about h2 {
-  color: wheat;
+  color: #fff;
   font-family: "Orkney", sans-serif;
+  font-weight: normal;
+  position: relative;
+  display: inline-block;
+  padding: .5rem 1.5rem;
+  border: 2px solid #fff;
+}
+
+.about .about-wrapper .right-part-about h2::after {
+  border-style: solid;
+  border-width: .625rem .625rem 0 0;
+  border-color: #fff transparent transparent transparent;
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 10px;
 }
 
 .about .about-wrapper .right-part-about p {
   font-family: "Orkney", sans-serif;
-  color: white;
+  color: #7d7d7d;
+  line-height: 1.4;
+  font-weight: normal;
 }
 
 .about .about-wrapper .right-part-about .info {
-  margin-top: 3rem;
+  margin-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: #080808;
+  background-color: #090909;
   padding: 2rem 2.5rem;
 }
 
@@ -218,8 +233,8 @@ header .header-wrapper .main-nav .nav-wrapper .nav-menu-bar .menu-item a:hover {
       flex-basis: 50%;
 }
 
-.about .about-wrapper .right-part-about .info .part h4 {
-  color: white;
+.about .about-wrapper .right-part-about .info .part h3 {
+  color: #fff;
   font-family: "Orkney", sans-serif;
 }
 
@@ -235,8 +250,8 @@ header .header-wrapper .main-nav .nav-wrapper .nav-menu-bar .menu-item a:hover {
 
 .hero-btn a {
   text-decoration: none;
-  color: white;
-  border: 2px solid white;
+  color: #fff;
+  border: 2px solid #fff;
   padding: 1rem 2rem;
 }
 
@@ -247,8 +262,8 @@ header .header-wrapper .main-nav .nav-wrapper .nav-menu-bar .menu-item a:hover {
 .about-btn .contact-btn {
   text-transform: uppercase;
   text-decoration: none;
-  color: white;
-  background-color: orangered;
+  color: #fff;
+  background-color: #ff4500;
   padding: 1rem 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */
