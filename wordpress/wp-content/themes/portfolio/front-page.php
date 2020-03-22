@@ -12,7 +12,7 @@
           <h1>I am Milos Ostojic</h1>
         </div>
         <div class="anim-heading">
-          <h1>Web Developer</h1>
+          <h2>Web Developer</h2>
         </div>
         <div class="hero-btn">
           <a href="<?php echo site_url('/index.php/about');?>">Read more</a>

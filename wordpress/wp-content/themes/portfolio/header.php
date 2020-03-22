@@ -8,19 +8,23 @@
 <body>
   <header>
     <div class="row">
-      <div class="nav-logo"></div>
-      <div class="main-nav">
-        <nav class="nav-wrapper">
-          <?php
-            wp_nav_menu(
-              array(
-                'theme_location' => 'top-menu',
-                'menu_id' => 'main-menu',
-                'conatiner' => 'ul',
-                'menu_class' => 'nav-menu-bar'
-              )
-            )?>
-        </nav>
+      <div class="header-wrapper">
+        <div class="nav-logo">
+          <h1>M.</h1>
+        </div>
+        <div class="main-nav">
+          <nav class="nav-wrapper">
+            <?php
+              wp_nav_menu(
+                array(
+                  'theme_location' => 'top-menu',
+                  'menu_id' => 'main-menu',
+                  'conatiner' => 'ul',
+                  'menu_class' => 'nav-menu-bar'
+                )
+              )?>
+          </nav>
+        </div>
       </div>
     </div>
   </header>

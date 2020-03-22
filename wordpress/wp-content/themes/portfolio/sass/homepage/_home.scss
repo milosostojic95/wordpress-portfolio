@@ -18,7 +18,7 @@
         padding-right: 1.5rem;
         font-size: 25px;
         cursor: pointer;
-        transition: .3s;
+        transition: .1s;
 
         &:nth-child(4) {
           padding-right: 0;
@@ -33,21 +33,22 @@
     .hero-heading {
 
       h1 {
-        font-size: 12px;
+        font-size: 72px;
         font-family: $bodyFontFamily;
         font-weight: normal;
         color: $headingColor;
-        display: none;
+        line-height: .1;
       }
     }
 
     .anim-heading {
       color: white;
 
-      h1 {
+      h2 {
         font-size: 50px;
         font-family: $bodyFontFamily;
         font-weight: normal;
+        line-height: .1;
       }
     }
   }

@@ -45,38 +45,49 @@ body {
 }
 
 header {
+  background: #000;
+}
+
+header .header-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: #000;
 }
 
-header .main-nav {
+header .header-wrapper .nav-logo {
+  background-color: #ff4500;
+}
+
+header .header-wrapper .nav-logo h1 {
+  padding: 0 .5rem;
+}
+
+header .header-wrapper .main-nav {
   padding: 1rem 0;
 }
 
-header .main-nav .nav-wrapper .nav-menu-bar {
+header .header-wrapper .main-nav .nav-wrapper .nav-menu-bar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style: none;
 }
 
-header .main-nav .nav-wrapper .nav-menu-bar .menu-item {
+header .header-wrapper .main-nav .nav-wrapper .nav-menu-bar .menu-item {
   padding-right: 10px;
 }
 
-header .main-nav .nav-wrapper .nav-menu-bar .menu-item a {
+header .header-wrapper .main-nav .nav-wrapper .nav-menu-bar .menu-item a {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
   font-family: "Orkney", sans-serif;
 }
 
-header .main-nav .nav-wrapper .nav-menu-bar .menu-item a:hover {
+header .header-wrapper .main-nav .nav-wrapper .nav-menu-bar .menu-item a:hover {
   color: #adadad;
 }
 
@@ -106,8 +117,8 @@ header .main-nav .nav-wrapper .nav-menu-bar .menu-item a:hover {
   padding-right: 1.5rem;
   font-size: 25px;
   cursor: pointer;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: .1s;
+  transition: .1s;
 }
 
 .hero .hero-wrapper .social-icons i:nth-child(4) {
@@ -120,21 +131,22 @@ header .main-nav .nav-wrapper .nav-menu-bar .menu-item a:hover {
 }
 
 .hero .hero-wrapper .hero-heading h1 {
-  font-size: 12px;
+  font-size: 72px;
   font-family: "Orkney", sans-serif;
   font-weight: normal;
   color: #fff;
-  display: none;
+  line-height: .1;
 }
 
 .hero .hero-wrapper .anim-heading {
   color: white;
 }
 
-.hero .hero-wrapper .anim-heading h1 {
+.hero .hero-wrapper .anim-heading h2 {
   font-size: 50px;
   font-family: "Orkney", sans-serif;
   font-weight: normal;
+  line-height: .1;
 }
 
 .hero-btn {

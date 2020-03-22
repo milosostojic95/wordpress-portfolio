@@ -1,32 +1,39 @@
 header {
-  display: flex;
-  justify-content: space-between;
   background: $navBgColor;
 
-  .nav-logo {
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
 
-  }
+    .nav-logo {
+      background-color: $navLogoBg;
 
-  .main-nav {
-    padding: 1rem 0;
+      h1 {
+        padding: 0 .5rem;
+      }
+    }
 
-    .nav-wrapper {
+    .main-nav {
+      padding: 1rem 0;
 
-      .nav-menu-bar {
-        display: flex;
-        list-style: none;
+      .nav-wrapper {
 
-        .menu-item {
-          padding-right: 10px;
+        .nav-menu-bar {
+          display: flex;
+          list-style: none;
 
-          a {
-            text-decoration: none;
-            text-transform: uppercase;
-            color: $navLinkColor;
-            font-family: $bodyFontFamily;
+          .menu-item {
+            padding-right: 10px;
 
-            &:hover {
-              color: $navLinkHover;
+            a {
+              text-decoration: none;
+              text-transform: uppercase;
+              color: $navLinkColor;
+              font-family: $bodyFontFamily;
+
+              &:hover {
+                color: $navLinkHover;
+              }
             }
           }
         }
