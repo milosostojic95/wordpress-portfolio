@@ -16,7 +16,9 @@
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, unde nam pariatur reprehenderit dolores quo iure! Enim tenetur beatae inventore quasi eveniet? Assumenda voluptatem voluptatum maxime dicta labore alias quasi?
           </p>
-          <a href="">Contact Me</a>
+          <div class="contact-btn">
+            <a href="" class="btn">Contact Me</a>
+          </div>
         </div>
         <div class="right-part-skills">
           <div class="progress">

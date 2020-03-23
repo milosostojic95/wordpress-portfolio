@@ -30,8 +30,8 @@
             <p>milosostojic95@gmail.com</p>
           </div>
         </div>
-        <div class="about-btn">
-          <a href="" class="contact-btn">Contact Me</a>
+        <div class="contact-btn">
+          <a href="" class="btn">Contact Me</a>
         </div>
       </div>
     </div>

@@ -5,16 +5,16 @@
 
   h1 {
     color: $headingColor;
-    font-size: 40px;
+    font-size: 42px;
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 2rem;
     font-family: $bodyFontFamily;
     font-weight: normal;
   }
 
   .skills-wrapper {
     display: flex;
-    padding-top: 3rem;
+    padding-top: 2rem;
 
     .left-part-skills {
       flex-basis: 50%;
@@ -73,7 +73,7 @@
 
         .progress-bar {
           height: 2px;
-          background-color: orangered;
+          background-color: $navLogoBg;
           width: 100%;
         }
       }

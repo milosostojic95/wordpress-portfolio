@@ -1,0 +1,76 @@
+.contact {
+  background: radial-gradient(rgba(0,0,0,.3),rgba(0,0,0,.8)),url('./assets/contact.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: -10px;
+
+  h1 {
+    font-size: 42px;
+    font-family: $bodyFontFamily;
+    font-weight: normal;
+    color: $headingColor;
+    padding-top: 2rem;
+    text-align: center;
+  }
+
+  .contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    .contact-items {
+      flex-basis: 100%;
+      padding-top: 2rem;
+      display: flex;
+      justify-content: space-between;
+
+      .item {
+
+        h4 {
+          color: $headingColor;
+          font-family: $bodyFontFamily;
+          font-weight: normal;
+        }
+
+        i {
+          font-size: 35px;
+          color: orangered;
+        }
+      }
+    }
+
+    .social-media {
+      flex-basis: 30%;
+      display: flex;
+      flex-direction: column;
+      padding-top: 5rem;
+
+      h2 {
+        color: $headingColor;
+        font-size: 35px;
+        font-family: $bodyFontFamily;
+        font-weight: normal;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 20px;
+        color: $headingColor;
+        font-family: $bodyFontFamily;
+        font-weight: normal;
+
+        i {
+          font-size: 20px;
+          color: orangered;
+          font-weight: normal;
+          padding: 1rem 1rem 1rem 0;
+        }
+      }
+    }
+
+    .contact-form {
+      flex-basis: 70%;
+    }
+  }
+}

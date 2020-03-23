@@ -9,16 +9,20 @@
     color: $headingColor;
     border: 2px solid $borderColor;
     padding: 1rem 2rem;
+    font-family: $bodyFontFamily;
+    font-weight: normal;
   }
 }
-.about-btn {
+.contact-btn {
   margin-top: 3rem;
 
-  .contact-btn {
+  .btn {
     text-transform: uppercase;
     text-decoration: none;
     color: $headingColor;
     background-color: $navLogoBg;
     padding: 1rem 1.5rem;
+    font-family: $bodyFontFamily;
+    font-weight: normal;
   }
 }
