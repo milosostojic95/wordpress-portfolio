@@ -238,6 +238,97 @@ header .header-wrapper .main-nav .nav-wrapper .nav-menu-bar .menu-item a:hover {
   font-family: "Orkney", sans-serif;
 }
 
+.skills {
+  background: #000;
+  margin-top: -10px;
+  height: 90vh;
+}
+
+.skills h1 {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 3rem;
+  font-family: "Orkney", sans-serif;
+  font-weight: normal;
+}
+
+.skills .skills-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3rem;
+}
+
+.skills .skills-wrapper .left-part-skills {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.skills .skills-wrapper .left-part-skills h2 {
+  color: #fff;
+  font-family: "Orkney", sans-serif;
+  font-weight: normal;
+}
+
+.skills .skills-wrapper .left-part-skills p {
+  color: #7d7d7d;
+  font-family: "Orkney", sans-serif;
+  font-weight: normal;
+  padding-right: 4rem;
+  text-align: justify;
+}
+
+.skills .skills-wrapper .right-part-skills {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.skills .skills-wrapper .right-part-skills .progress {
+  position: relative;
+  padding: .3rem 0;
+}
+
+.skills .skills-wrapper .right-part-skills .progress h4 {
+  color: #fff;
+  font-family: "Orkney", sans-serif;
+  font-weight: normal;
+}
+
+.skills .skills-wrapper .right-part-skills .progress .progress-value {
+  color: white;
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+  border: 1px solid #fff;
+  font-family: "Orkney", sans-serif;
+  padding: .2rem .3rem .1rem;
+  font-size: 10px;
+}
+
+.skills .skills-wrapper .right-part-skills .progress .progress-value::after {
+  border-style: solid;
+  border-width: .3125rem .3125rem 0 0;
+  border-color: #fff transparent transparent transparent;
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 10px;
+}
+
+.skills .skills-wrapper .right-part-skills .progress .progress-bar {
+  height: 2px;
+  background-color: orangered;
+  width: 100%;
+}
+
 .hero-btn {
   display: -webkit-box;
   display: -ms-flexbox;
