@@ -48,7 +48,7 @@
 
       h2 {
         color: $headingColor;
-        font-size: 35px;
+        font-size: 30px;
         font-family: $bodyFontFamily;
         font-weight: normal;
       }
@@ -71,6 +71,66 @@
 
     .contact-form {
       flex-basis: 70%;
+      padding-top: 5rem;
+
+      h2 {
+        font-size: 30px;
+        color: $headingColor;
+        font-weight: normal;
+        font-family: $bodyFontFamily;
+      }
+
+      form {
+        display: flex;
+        flex-wrap: wrap;
+
+        .form {
+          display: flex;
+          flex-direction: column;
+
+          label {
+            color: $headingColor;
+            padding: .5rem 0;
+            font-family: $bodyFontFamily;
+            font-weight: normal;
+          }
+        }
+
+        .form-control {
+          background-color: rgba(255, 255, 255, .2);
+          border: none;
+          line-height: 1.5;
+          font-size: 1.2rem;
+          padding-left: 5px;
+          background-clip: border-box;
+
+          &:hover {
+            background-color: rgba(255, 255, 255, .3);
+          }
+        }
+
+        .form-group {
+          flex-basis: 40%;
+
+          &:nth-child(2) {
+            margin-left: 15px;
+          }
+        }
+
+        .subject {
+          flex-basis: 100%;
+
+        }
+
+        .form-message {
+          flex-basis: 100%;
+
+          textarea{
+            resize: vertical;
+            overflow: auto;
+          }
+        }
+      }
     }
   }
 }

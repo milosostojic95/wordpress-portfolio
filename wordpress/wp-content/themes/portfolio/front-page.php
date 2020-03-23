@@ -1,5 +1,6 @@
 <?php get_header();?>
-  <section class="hero">
+  <section class="hero" style="background:url(<?php the_post_thumbnail_url();?>) !important; background-size:cover !important;
+  background-position:center center !important;">
     <div class="row">
       <div class="hero-wrapper">
         <div class="social-icons">

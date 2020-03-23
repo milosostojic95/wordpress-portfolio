@@ -31,7 +31,7 @@
           </div>
         </div>
         <div class="contact-btn">
-          <a href="" class="btn">Contact Me</a>
+          <a href="<?php echo site_url('./index.php/contact');?>" class="btn">Contact Me</a>
         </div>
       </div>
     </div>

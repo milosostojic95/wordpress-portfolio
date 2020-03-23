@@ -1,0 +1,12 @@
+footer {
+  background-color: $navBgColor;
+  margin-top: -2px;
+
+  p {
+    color: $textColor;
+    font-family: $bodyFontFamily;
+    font-weight: normal;
+    margin: 0 !important;
+    padding: 1rem 0;
+  }
+}

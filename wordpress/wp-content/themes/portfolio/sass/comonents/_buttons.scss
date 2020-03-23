@@ -26,3 +26,15 @@
     font-weight: normal;
   }
 }
+
+.send-btn {
+  color: $headingColor;
+  background-color: $navLogoBg;
+  padding: 1rem 1.5rem;
+  border: none;
+  font-family: $bodyFontFamily;
+  font-weight: normal;
+  margin-top: 2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
