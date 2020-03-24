@@ -2,8 +2,20 @@ footer {
   background-color: $navBgColor;
   margin-top: -2px;
 
+  @include breakpoint(mobile) {
+    padding: 0 2rem;
+  }
+
+  @include breakpoint(smallTablet) {
+    padding: 0 3rem;
+  }
+
   @include breakpoint(tablet) {
     padding: 0 5rem;
+  }
+
+  @include breakpoint(laptop) {
+    padding: 0;
   }
 
   p {
@@ -12,5 +24,9 @@ footer {
     font-weight: normal;
     margin: 0 !important;
     padding: 1rem 0;
+  }
+
+  @include breakpoint(mobile) {
+    font-size: .75rem;
   }
 }

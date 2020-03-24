@@ -52,6 +52,18 @@ header {
   background: #000;
 }
 
+@media screen and (min-width: 320px) {
+  header {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    padding: 0 3rem;
+  }
+}
+
 @media screen and (min-width: 980px) {
   header {
     padding: 0 5rem;
@@ -85,8 +97,44 @@ header .header-wrapper .nav-logo h1 {
   font-weight: normal;
 }
 
+header .header-wrapper .menu-bar {
+  color: white;
+  font-size: 35px;
+  padding: .5rem;
+}
+
+@media screen and (min-width: 320px) {
+  header .header-wrapper .menu-bar {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header .header-wrapper .menu-bar {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  header .header-wrapper .menu-bar {
+    display: none;
+  }
+}
+
 header .header-wrapper .main-nav {
   padding: 1rem 0;
+}
+
+@media screen and (min-width: 320px) {
+  header .header-wrapper .main-nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  header .header-wrapper .main-nav {
+    display: block;
+  }
 }
 
 header .header-wrapper .main-nav .nav-wrapper .nav-menu-bar {
@@ -117,9 +165,27 @@ footer {
   margin-top: -2px;
 }
 
+@media screen and (min-width: 320px) {
+  footer {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    padding: 0 3rem;
+  }
+}
+
 @media screen and (min-width: 980px) {
   footer {
     padding: 0 5rem;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  footer {
+    padding: 0;
   }
 }
 
@@ -129,6 +195,12 @@ footer p {
   font-weight: normal;
   margin: 0 !important;
   padding: 1rem 0;
+}
+
+@media screen and (min-width: 320px) {
+  footer {
+    font-size: .75rem;
+  }
 }
 
 .hero {
@@ -146,6 +218,18 @@ footer p {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+
+@media screen and (min-width: 320px) {
+  .hero .hero-wrapper {
+    padding: 7rem 2rem 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero .hero-wrapper {
+    padding: 9rem 3rem 0;
+  }
 }
 
 @media screen and (min-width: 980px) {
@@ -190,7 +274,13 @@ footer p {
   line-height: 1.5;
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 320px) {
+  .hero .hero-wrapper .hero-heading h1 {
+    font-size: 1.9rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .hero .hero-wrapper .hero-heading h1 {
     font-size: 3rem;
   }
@@ -212,7 +302,13 @@ footer p {
   line-height: 1.5;
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 320px) {
+  .hero .hero-wrapper .anim-heading h2 {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .hero .hero-wrapper .anim-heading h2 {
     font-size: 2.7rem;
   }

@@ -7,6 +7,14 @@
     flex-direction: column;
     align-items: flex-end;
 
+    @include breakpoint(mobile) {
+      padding: 7rem 2rem 0;
+    }
+
+    @include breakpoint(smallTablet) {
+      padding: 9rem 3rem 0;
+    }
+
     @include breakpoint(tablet) {
       padding: 7rem 5rem 0;
     }
@@ -45,7 +53,11 @@
         color: $headingColor;
         line-height: 1.5;
 
-        @include breakpoint(tablet) {
+        @include breakpoint(mobile) {
+          font-size: 1.9rem;
+        }
+
+        @include breakpoint(smallTablet) {
           font-size: 3rem;
         }
 
@@ -63,7 +75,11 @@
         font-weight: normal;
         line-height: 1.5;
 
-        @include breakpoint(tablet) {
+        @include breakpoint(mobile) {
+          font-size: 1.7rem;
+        }
+
+        @include breakpoint(smallTablet) {
           font-size: 2.7rem;
         }
 

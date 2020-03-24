@@ -1,6 +1,14 @@
 header {
   background: $navBgColor;
 
+  @include breakpoint(mobile) {
+    padding: 0 2rem;
+  }
+
+  @include breakpoint(smallTablet) {
+    padding: 0 3rem;
+  }
+
   @include breakpoint(tablet) {
     padding: 0 5rem;
   }
@@ -25,8 +33,34 @@ header {
       }
     }
 
+    .menu-bar {
+      color: white;
+      font-size: 35px;
+      padding: .5rem;
+
+      @include breakpoint(mobile) {
+        font-size: 25px;
+      }
+
+      @include breakpoint(smallTablet) {
+        display: block;
+      }
+
+      @include breakpoint(tablet) {
+        display: none;
+      }
+    }
+
     .main-nav {
       padding: 1rem 0;
+
+      @include breakpoint(mobile) {
+        display: none;
+      }
+
+      @include breakpoint(tablet) {
+        display: block;
+      }
 
       .nav-wrapper {
 
