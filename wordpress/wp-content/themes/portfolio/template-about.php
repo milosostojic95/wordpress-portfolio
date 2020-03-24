@@ -15,7 +15,7 @@
       <div class="right-part-about">
         <h2>Hello There</h2>
         <p>
-        <?php echo $about['about_text']; ?>
+          <?php echo $about['about_text']; ?>
         </p>
         <div class="info">
   	      <div class="part">

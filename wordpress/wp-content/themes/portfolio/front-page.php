@@ -1,5 +1,5 @@
 <?php get_header();?>
-  <?php $hero = get_field('hero');?>
+<?php $hero = get_field('hero');?>
   <section class="hero" style="background:url(<?php the_post_thumbnail_url();?>) !important; background-size:cover !important;
   background-position:center center !important;">
     <div class="row">
