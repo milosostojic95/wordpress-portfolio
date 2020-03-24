@@ -4,7 +4,19 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  margin-top: -10px;
+  margin-top: -1px;
+
+  @include breakpoint(mobile) {
+    padding: 0rem 2rem 0;
+  }
+
+  @include breakpoint(smallTablet) {
+    padding: 0rem 3rem 0;
+  }
+
+  @include breakpoint(tablet) {
+    padding: 0rem 5rem 0;
+  }
 
   h1 {
     font-size: 42px;

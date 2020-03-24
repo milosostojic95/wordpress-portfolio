@@ -2,22 +2,26 @@
 .hero {
   height: 90vh;
 
+  @include breakpoint(mobile) {
+    padding: 7rem 2rem 0;
+  }
+
+  @include breakpoint(smallTablet) {
+    padding: 9rem 3rem 0;
+  }
+
+  @include breakpoint(tablet) {
+    padding: 7rem 5rem 0;
+  }
+
+  @include breakpoint(laptop) {
+    padding: 7rem 0 0;
+  }
+
   .hero-wrapper {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-
-    @include breakpoint(mobile) {
-      padding: 7rem 2rem 0;
-    }
-
-    @include breakpoint(smallTablet) {
-      padding: 9rem 3rem 0;
-    }
-
-    @include breakpoint(tablet) {
-      padding: 7rem 5rem 0;
-    }
 
     .social-icons {
 

@@ -1,16 +1,39 @@
 .about {
   background-color: $aboutBg;
-  height: 90vh;
+
   margin: -1px 0 0 0 !important;
 
+  @include breakpoint(mobile) {
+    padding: 0rem 2rem 0;
+    height: 100%;
+  }
+
+  @include breakpoint(smallTablet) {
+    padding: 0rem 3rem 0;
+  }
+
+  @include breakpoint(tablet) {
+    padding: 0rem 5rem 0;
+  }
+
+  @include breakpoint(laptop) {
+    height: 90vh;
+  }
 
   h1 {
     color: $headingColor;
     font-size: 42px;
     text-align: center;
-    padding-top: 2rem;
     font-family: $bodyFontFamily;
     font-weight: normal;
+
+    @include breakpoint(smallTablet) {
+      padding-top: 1rem;
+    }
+
+    @include breakpoint(laptop) {
+      padding-top: 2rem;
+    }
   }
 
   .about-wrapper {
@@ -18,12 +41,34 @@
     justify-content: center;
     align-items: center;
 
+    @include breakpoint(mobile) {
+      flex-wrap: wrap;
+    }
+
+    @include breakpoint(smallTablet) {
+      flex-wrap: nowrap;
+    }
+
     .left-part-about {
-      flex-basis: 50%;
+
+      @include breakpoint (mobile) {
+        flex-basis: 100%;
+      }
+
+      @include breakpoint(smallTablet) {
+        flex-basis: 50%;
+      }
     }
 
     .right-part-about {
-      flex-basis: 50%;
+
+      @include breakpoint (mobile) {
+        flex-basis: 100%;
+      }
+
+      @include breakpoint(smallTablet) {
+        flex-basis: 50%;
+      }
 
       h2 {
         color: $headingColor;

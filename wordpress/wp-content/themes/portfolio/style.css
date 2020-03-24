@@ -48,6 +48,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 !important;
 }
 
+p {
+  font-size: 1rem;
+}
+
 header {
   background: #000;
 }
@@ -195,16 +199,35 @@ footer p {
   font-weight: normal;
   margin: 0 !important;
   padding: 1rem 0;
-}
-
-@media screen and (min-width: 320px) {
-  footer {
-    font-size: .75rem;
-  }
+  font-size: .85rem !important;
 }
 
 .hero {
   height: 90vh;
+}
+
+@media screen and (min-width: 320px) {
+  .hero {
+    padding: 7rem 2rem 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding: 9rem 3rem 0;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .hero {
+    padding: 7rem 5rem 0;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .hero {
+    padding: 7rem 0 0;
+  }
 }
 
 .hero .hero-wrapper {
@@ -218,24 +241,6 @@ footer p {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-}
-
-@media screen and (min-width: 320px) {
-  .hero .hero-wrapper {
-    padding: 7rem 2rem 0;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hero .hero-wrapper {
-    padding: 9rem 3rem 0;
-  }
-}
-
-@media screen and (min-width: 980px) {
-  .hero .hero-wrapper {
-    padding: 7rem 5rem 0;
-  }
 }
 
 .hero .hero-wrapper .social-icons i {
@@ -322,17 +327,52 @@ footer p {
 
 .about {
   background-color: #010101;
-  height: 90vh;
   margin: -1px 0 0 0 !important;
+}
+
+@media screen and (min-width: 320px) {
+  .about {
+    padding: 0rem 2rem 0;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    padding: 0rem 3rem 0;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .about {
+    padding: 0rem 5rem 0;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .about {
+    height: 90vh;
+  }
 }
 
 .about h1 {
   color: #fff;
   font-size: 42px;
   text-align: center;
-  padding-top: 2rem;
   font-family: "Orkney", sans-serif;
   font-weight: normal;
+}
+
+@media screen and (min-width: 768px) {
+  .about h1 {
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .about h1 {
+    padding-top: 2rem;
+  }
 }
 
 .about .about-wrapper {
@@ -347,14 +387,46 @@ footer p {
           align-items: center;
 }
 
-.about .about-wrapper .left-part-about {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+@media screen and (min-width: 320px) {
+  .about .about-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
-.about .about-wrapper .right-part-about {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+@media screen and (min-width: 768px) {
+  .about .about-wrapper {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .about .about-wrapper .left-part-about {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about .about-wrapper .left-part-about {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .about .about-wrapper .right-part-about {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about .about-wrapper .right-part-about {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
 }
 
 .about .about-wrapper .right-part-about h2 {
@@ -408,8 +480,26 @@ footer p {
 
 .skills {
   background: #000;
-  margin-top: -10px;
-  height: 90vh;
+  margin-top: -1px;
+  height: 100%;
+}
+
+@media screen and (min-width: 320px) {
+  .skills {
+    padding: 0rem 2rem 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .skills {
+    padding: 0rem 3rem 0;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .skills {
+    padding: 0rem 5rem 0;
+  }
 }
 
 .skills h1 {
@@ -425,12 +515,39 @@ footer p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 2rem;
+  padding: 2.5rem 0;
+}
+
+@media screen and (min-width: 320px) {
+  .skills .skills-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .skills .skills-wrapper {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
 }
 
 .skills .skills-wrapper .left-part-skills {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  padding-top: 1rem;
+}
+
+@media screen and (min-width: 320px) {
+  .skills .skills-wrapper .left-part-skills {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .skills .skills-wrapper .left-part-skills {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
 }
 
 .skills .skills-wrapper .left-part-skills h2 {
@@ -443,13 +560,22 @@ footer p {
   color: #7d7d7d;
   font-family: "Orkney", sans-serif;
   font-weight: normal;
-  padding-right: 4rem;
   text-align: justify;
 }
 
+@media screen and (min-width: 320px) {
+  .skills .skills-wrapper .left-part-skills p {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .skills .skills-wrapper .left-part-skills p {
+    padding-right: 4rem;
+  }
+}
+
 .skills .skills-wrapper .right-part-skills {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -457,6 +583,20 @@ footer p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+@media screen and (min-width: 320px) {
+  .skills .skills-wrapper .right-part-skills {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .skills .skills-wrapper .right-part-skills {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
 }
 
 .skills .skills-wrapper .right-part-skills .progress {
@@ -544,7 +684,25 @@ footer p {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  margin-top: -10px;
+  margin-top: -1px;
+}
+
+@media screen and (min-width: 320px) {
+  .contact {
+    padding: 0rem 2rem 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact {
+    padding: 0rem 3rem 0;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .contact {
+    padding: 0rem 5rem 0;
+  }
 }
 
 .contact h1 {
@@ -724,7 +882,7 @@ footer p {
 }
 
 .contact-btn {
-  margin-top: 3rem;
+  margin: 3rem 0;
 }
 
 .contact-btn .btn {
