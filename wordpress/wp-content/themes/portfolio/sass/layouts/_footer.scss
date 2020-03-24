@@ -2,6 +2,10 @@ footer {
   background-color: $navBgColor;
   margin-top: -2px;
 
+  @include breakpoint(tablet) {
+    padding: 0 5rem;
+  }
+
   p {
     color: $textColor;
     font-family: $bodyFontFamily;

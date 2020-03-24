@@ -4,6 +4,8 @@
   */
   get_header();
 ?>
-<h2>Hello project</h2>
+  <section class="project">
+
+  </section>
 
 <?php get_footer();?>

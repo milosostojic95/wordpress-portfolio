@@ -1,8 +1,4 @@
 .project {
-  display: flex;
-  flex-wrap: wrap;
-
-  .card {
-    flex-basis: 30%;
-  }
+  background: radial-gradient(#02040e,rgba(0,0,0,1));
+  height: 90vh;
 }

@@ -52,6 +52,18 @@ header {
   background: #000;
 }
 
+@media screen and (min-width: 980px) {
+  header {
+    padding: 0 5rem;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  header {
+    padding: 0;
+  }
+}
+
 header .header-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -105,6 +117,12 @@ footer {
   margin-top: -2px;
 }
 
+@media screen and (min-width: 980px) {
+  footer {
+    padding: 0 5rem;
+  }
+}
+
 footer p {
   color: #7d7d7d;
   font-family: "Orkney", sans-serif;
@@ -118,7 +136,6 @@ footer p {
 }
 
 .hero .hero-wrapper {
-  padding-top: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,13 +148,30 @@ footer p {
           align-items: flex-end;
 }
 
+@media screen and (min-width: 980px) {
+  .hero .hero-wrapper {
+    padding: 7rem 5rem 0;
+  }
+}
+
 .hero .hero-wrapper .social-icons i {
   color: #9e9e9e;
   padding-right: 1.5rem;
-  font-size: 25px;
   cursor: pointer;
   -webkit-transition: .1s;
   transition: .1s;
+}
+
+@media screen and (min-width: 980px) {
+  .hero .hero-wrapper .social-icons i {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .hero .hero-wrapper .social-icons i {
+    font-size: 25px;
+  }
 }
 
 .hero .hero-wrapper .social-icons i:nth-child(4) {
@@ -150,11 +184,22 @@ footer p {
 }
 
 .hero .hero-wrapper .hero-heading h1 {
-  font-size: 72px;
   font-family: "Orkney", sans-serif;
   font-weight: normal;
   color: #fff;
   line-height: 1.5;
+}
+
+@media screen and (min-width: 980px) {
+  .hero .hero-wrapper .hero-heading h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .hero .hero-wrapper .hero-heading h1 {
+    font-size: 72px;
+  }
 }
 
 .hero .hero-wrapper .anim-heading {
@@ -162,10 +207,21 @@ footer p {
 }
 
 .hero .hero-wrapper .anim-heading h2 {
-  font-size: 50px;
   font-family: "Orkney", sans-serif;
   font-weight: normal;
   line-height: 1.5;
+}
+
+@media screen and (min-width: 980px) {
+  .hero .hero-wrapper .anim-heading h2 {
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .hero .hero-wrapper .anim-heading h2 {
+    font-size: 50px;
+  }
 }
 
 .about {
@@ -548,16 +604,8 @@ footer p {
 }
 
 .project {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.project .card {
-  -ms-flex-preferred-size: 30%;
-      flex-basis: 30%;
+  background: radial-gradient(#02040e, black);
+  height: 90vh;
 }
 
 .hero-btn {

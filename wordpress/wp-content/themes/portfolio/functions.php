@@ -51,3 +51,7 @@
   }
   // Hooking up our function to theme setup
   add_action( 'init', 'create_posttype' );
+
+  //custom image sizes
+  add_image_size('product_image_large', 700,700, false);
+  add_image_size('product_image_small', 400,400, false);

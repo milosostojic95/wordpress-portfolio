@@ -1,6 +1,14 @@
 header {
   background: $navBgColor;
 
+  @include breakpoint(tablet) {
+    padding: 0 5rem;
+  }
+
+  @include breakpoint(laptop) {
+    padding: 0;
+  }
+
   .header-wrapper {
     display: flex;
     justify-content: space-between;

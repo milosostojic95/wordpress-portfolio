@@ -3,19 +3,29 @@
   height: 90vh;
 
   .hero-wrapper {
-    padding-top: 15%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
+    @include breakpoint(tablet) {
+      padding: 7rem 5rem 0;
+    }
 
     .social-icons {
 
       i {
         color: $socialIconColor;
         padding-right: 1.5rem;
-        font-size: 25px;
         cursor: pointer;
         transition: .1s;
+
+        @include breakpoint(tablet) {
+          font-size: 20px;
+        }
+
+        @include breakpoint(laptop) {
+          font-size: 25px;
+        }
 
         &:nth-child(4) {
           padding-right: 0;
@@ -30,11 +40,18 @@
     .hero-heading {
 
       h1 {
-        font-size: 72px;
         font-family: $bodyFontFamily;
         font-weight: normal;
         color: $headingColor;
         line-height: 1.5;
+
+        @include breakpoint(tablet) {
+          font-size: 3rem;
+        }
+
+        @include breakpoint(laptop) {
+          font-size: 72px;
+        }
       }
     }
 
@@ -42,10 +59,17 @@
       color: $headingColor;
 
       h2 {
-        font-size: 50px;
         font-family: $bodyFontFamily;
         font-weight: normal;
         line-height: 1.5;
+
+        @include breakpoint(tablet) {
+          font-size: 2.7rem;
+        }
+
+        @include breakpoint(laptop) {
+          font-size: 50px;
+        }
       }
     }
   }
