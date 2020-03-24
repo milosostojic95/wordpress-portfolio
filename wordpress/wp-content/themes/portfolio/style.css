@@ -154,6 +154,7 @@ footer p {
   font-family: "Orkney", sans-serif;
   font-weight: normal;
   color: #fff;
+  line-height: 1.5;
 }
 
 .hero .hero-wrapper .anim-heading {
@@ -164,6 +165,7 @@ footer p {
   font-size: 50px;
   font-family: "Orkney", sans-serif;
   font-weight: normal;
+  line-height: 1.5;
 }
 
 .about {
@@ -228,6 +230,7 @@ footer p {
   color: #7d7d7d;
   line-height: 1.4;
   font-weight: normal;
+  text-align: justify;
 }
 
 .about .about-wrapper .right-part-about .info {
@@ -325,6 +328,26 @@ footer p {
   font-family: "Orkney", sans-serif;
   padding: .2rem .3rem .1rem;
   font-size: 12px;
+  -webkit-animation: 3s ease show;
+          animation: 3s ease show;
+}
+
+@-webkit-keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .skills .skills-wrapper .right-part-skills .progress .progress-value::after {
@@ -364,7 +387,7 @@ footer p {
 }
 
 .contact {
-  background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url("./assets/contact.jpg");
+  background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("./assets/contact.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -483,6 +506,8 @@ footer p {
   padding: .5rem 0;
   font-family: "Orkney", sans-serif;
   font-weight: normal;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .contact .contact-wrapper .contact-form form .form-control {
@@ -520,6 +545,19 @@ footer p {
 .contact .contact-wrapper .contact-form form .form-message textarea {
   resize: vertical;
   overflow: auto;
+}
+
+.project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.project .card {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
 }
 
 .hero-btn {

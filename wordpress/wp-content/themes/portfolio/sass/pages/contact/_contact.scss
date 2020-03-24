@@ -1,5 +1,5 @@
 .contact {
-  background: radial-gradient(rgba(0,0,0,.3),rgba(0,0,0,.8)),url('./assets/contact.jpg');
+  background: radial-gradient(rgba(0,0,0,.3),rgba(0,0,0,.9)),url('./assets/contact.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -93,6 +93,7 @@
             padding: .5rem 0;
             font-family: $bodyFontFamily;
             font-weight: normal;
+            transition: .3s;
           }
         }
 

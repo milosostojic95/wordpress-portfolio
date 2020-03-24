@@ -34,14 +34,18 @@
         array(
             'labels' => array(
                 'name' => __( 'Project' ),
-                'singular_name' => __( 'Project' )
+                'singular_name' => __( 'Project'),
+                'add_new_item' => 'Add New Project',
+                'edit_item' => 'Edit Project'
             ),
             'public' => true,
             'has_archive' => true,
             'rewrite' => array('slug' => 'project'),
             'show_in_rest' => true,
             'menu_icon'   => 'dashicons-products',
-
+            'support' => array(
+              'title', 'thumbnail', 'editor', 'excerpt', 'comment'
+            )
         )
     );
   }

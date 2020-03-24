@@ -3,10 +3,12 @@
     Template Name: Skills
   */
   get_header();
+  while(have_posts()) {
+    the_post();
 ?>
   <section class="skills">
     <div class="row">
-      <h1>Skills</h1>
+      <h1><?php the_title(); ?></h1>
       <div class="skills-wrapper">
         <div class="left-part-skills">
           <h2>Every Day is a New Challenge</h2>
@@ -17,7 +19,7 @@
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, unde nam pariatur reprehenderit dolores quo iure! Enim tenetur beatae inventore quasi eveniet? Assumenda voluptatem voluptatum maxime dicta labore alias quasi?
           </p>
           <div class="contact-btn">
-            <a href="<?php echo site_url('./index.php/contact');?>" class="btn">Contact Me</a>
+            <a href="<?php echo site_url('/contact');?>" class="btn">Contact Me</a>
           </div>
         </div>
         <div class="right-part-skills">
@@ -123,4 +125,5 @@
       </div>
     </div>
   </section>
+  <?php } ?>
 <?php get_footer();?>
