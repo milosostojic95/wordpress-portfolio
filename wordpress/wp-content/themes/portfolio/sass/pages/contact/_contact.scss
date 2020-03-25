@@ -32,7 +32,6 @@
     flex-wrap: wrap;
 
     .contact-items {
-      flex-basis: 100%;
       padding-top: 2rem;
       display: flex;
       flex-wrap: wrap;
@@ -40,24 +39,27 @@
 
       @include breakpoint(mobile) {
         flex-direction: column;
+        flex-basis: 50%;
       }
 
       @include breakpoint(smallTablet) {
         flex-direction: row;
+        flex-basis: 100%;
       }
 
       .item {
+        padding-top: 1rem;
 
         h4 {
           color: $headingColor;
           font-family: $bodyFontFamily;
           font-weight: normal;
-          padding-top: 1rem;
+          padding-top: .5rem;
         }
 
         i {
           font-size: 35px;
-          color: orangered;
+          color: $iconColor;
         }
       }
     }
@@ -68,10 +70,10 @@
       padding-top: 5rem;
 
       @include breakpoint(mobile) {
-        flex-basis: 100%;
+        flex-basis: 50%;
       }
 
-      @include breakpoint(mobile) {
+      @include breakpoint(smallTablet) {
         flex-basis: 30%;
       }
 
@@ -91,7 +93,7 @@
 
         i {
           font-size: 20px;
-          color: orangered;
+          color: $iconColor;
           font-weight: normal;
           padding: 1rem 1rem 1rem 0;
         }

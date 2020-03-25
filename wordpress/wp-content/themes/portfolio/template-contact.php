@@ -11,7 +11,7 @@
         <div class="contact-items">
           <div class="item">
             <i class="fa fa-map-marker" aria-hidden="true"></i>
-            <h4>Belgrade,Serbia</h4>
+            <h4>Belgrade, Serbia</h4>
           </div>
           <div class="item">
             <i class="fa fa-mobile" aria-hidden="true"></i>

@@ -41,10 +41,12 @@
 
       @include breakpoint(mobile) {
         flex-basis: 100%;
+        padding-right: 0;
       }
 
       @include breakpoint(smallTablet) {
         flex-basis: 50%;
+        padding-right: 4rem;
       }
 
       h2 {
@@ -58,14 +60,6 @@
         font-family: $bodyFontFamily;
         font-weight: normal;
         text-align: justify;
-
-        @include breakpoint(mobile) {
-          padding: 0;
-        }
-
-        @include breakpoint(smallTablet) {
-          padding-right: 4rem;
-        }
       }
     }
 
