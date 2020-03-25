@@ -863,12 +863,12 @@ footer p {
       -ms-flex-pack: end;
           justify-content: flex-end;
   height: 100%;
+  border: 2px solid #fff;
 }
 
 .hero-btn a {
   text-decoration: none;
-  border: 2px solid #fff;
-  padding: 1rem 2rem;
+  margin: 1rem 2rem;
 }
 
 .contact-btn {
