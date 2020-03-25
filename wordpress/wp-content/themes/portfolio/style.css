@@ -50,6 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-size: 1rem;
+  line-height: 1.4;
 }
 
 header {
@@ -90,7 +91,7 @@ header .header-wrapper {
 }
 
 header .header-wrapper .nav-logo {
-  background-color: #ff4500;
+  background-color: #f26c4f;
   padding-top: .5rem;
 }
 
@@ -130,7 +131,7 @@ header .header-wrapper .main-nav .nav-wrapper .nav-menu-bar .menu-item a:hover {
 
 footer {
   background-color: #000;
-  margin-top: -2px;
+  margin-top: -1px;
 }
 
 @media screen and (min-width: 320px) {
@@ -167,30 +168,30 @@ footer p {
 }
 
 .hero {
-  height: 90vh;
+  height: 85vh;
 }
 
 @media screen and (min-width: 320px) {
   .hero {
-    padding: 7rem 2rem 0;
+    padding: 0 2rem;
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero {
-    padding: 9rem 3rem 0;
+    padding: 0 3rem;
   }
 }
 
 @media screen and (min-width: 980px) {
   .hero {
-    padding: 7rem 5rem 0;
+    padding: 0 5rem;
   }
 }
 
 @media screen and (min-width: 1240px) {
   .hero {
-    padding: 7rem 0 0;
+    padding: 0 2rem;
   }
 }
 
@@ -205,6 +206,7 @@ footer p {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  padding-top: 8rem;
 }
 
 .hero .hero-wrapper .social-icons i {
@@ -245,19 +247,31 @@ footer p {
 
 @media screen and (min-width: 320px) {
   .hero .hero-wrapper .hero-heading h1 {
-    font-size: 1.9rem;
+    font-size: 8vw;
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero .hero-wrapper .hero-heading h1 {
-    font-size: 3rem;
+    font-size: 7vw;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .hero .hero-wrapper .hero-heading h1 {
+    font-size: 6vw;
   }
 }
 
 @media screen and (min-width: 1240px) {
   .hero .hero-wrapper .hero-heading h1 {
-    font-size: 72px;
+    font-size: 5vw;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero .hero-wrapper .hero-heading h1 {
+    font-size: 4vw;
   }
 }
 
@@ -273,19 +287,25 @@ footer p {
 
 @media screen and (min-width: 320px) {
   .hero .hero-wrapper .anim-heading h2 {
-    font-size: 1.7rem;
+    font-size: 6vw;
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero .hero-wrapper .anim-heading h2 {
-    font-size: 2.7rem;
+    font-size: 5vw;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .hero .hero-wrapper .anim-heading h2 {
+    font-size: 4vw;
   }
 }
 
 @media screen and (min-width: 1240px) {
   .hero .hero-wrapper .anim-heading h2 {
-    font-size: 50px;
+    font-size: 3vw;
   }
 }
 
@@ -313,12 +333,6 @@ footer p {
   }
 }
 
-@media screen and (min-width: 1240px) {
-  .about {
-    height: 90vh;
-  }
-}
-
 .about h1 {
   color: #fff;
   font-size: 42px;
@@ -343,12 +357,7 @@ footer p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  padding-top: 2rem;
 }
 
 @media screen and (min-width: 320px) {
@@ -363,6 +372,11 @@ footer p {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
   }
+}
+
+.about .about-wrapper .left-part-about img {
+  height: 100%;
+  width: 100%;
 }
 
 @media screen and (min-width: 320px) {
@@ -416,7 +430,6 @@ footer p {
 .about .about-wrapper .right-part-about p {
   font-family: "Orkney", sans-serif;
   color: #7d7d7d;
-  line-height: 1.4;
   font-weight: normal;
   text-align: justify;
 }
@@ -618,7 +631,7 @@ footer p {
 
 .skills .skills-wrapper .right-part-skills .progress .progress-bar {
   height: 2px;
-  background-color: #ff4500;
+  background-color: #f26c4f;
   width: 100%;
   -webkit-animation: 1s ease slideBar;
           animation: 1s ease slideBar;
@@ -916,7 +929,7 @@ footer p {
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
-  background-color: #ff4500;
+  background-color: #f26c4f;
   padding: 1rem 1.5rem;
   font-family: "Orkney", sans-serif;
   font-weight: normal;
@@ -924,7 +937,7 @@ footer p {
 
 .send-btn {
   color: #fff;
-  background-color: #ff4500;
+  background-color: #f26c4f;
   padding: 1rem 1.5rem;
   border: none;
   font-family: "Orkney", sans-serif;

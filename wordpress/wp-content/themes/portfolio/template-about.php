@@ -10,7 +10,7 @@
     <h1><?php the_title(); ?></h1>
     <div class="about-wrapper">
       <div class="left-part-about">
-  	    <img src="<?php echo get_template_directory_uri();?>/assets/man1.jpeg" alt="">
+  	    <img src="<?php echo get_template_directory_uri();?>/assets/about.jpeg" alt="">
       </div>
       <div class="right-part-about">
         <h2>Hello There</h2>

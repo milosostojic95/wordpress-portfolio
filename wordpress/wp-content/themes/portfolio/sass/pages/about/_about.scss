@@ -1,6 +1,5 @@
 .about {
   background-color: $aboutBg;
-
   margin: -1px 0 0 0 !important;
 
   @include breakpoint(mobile) {
@@ -14,10 +13,6 @@
 
   @include breakpoint(tablet) {
     padding: 0rem 5rem 0;
-  }
-
-  @include breakpoint(laptop) {
-    height: 90vh;
   }
 
   h1 {
@@ -38,8 +33,7 @@
 
   .about-wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 2rem;
 
     @include breakpoint(mobile) {
       flex-wrap: wrap;
@@ -50,6 +44,11 @@
     }
 
     .left-part-about {
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
 
       @include breakpoint (mobile) {
         flex-basis: 100%;
@@ -93,7 +92,6 @@
       p {
         font-family: $bodyFontFamily;
         color: $textColor;
-        line-height: 1.4;
         font-weight: normal;
         text-align: justify;
       }

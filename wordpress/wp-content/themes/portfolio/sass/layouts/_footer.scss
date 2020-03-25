@@ -1,6 +1,6 @@
 footer {
   background-color: $navBgColor;
-  margin-top: -2px;
+  margin-top: -1px;
 
   @include breakpoint(mobile) {
     padding: 0 2rem;
