@@ -16,12 +16,9 @@
   }
 
   h1 {
-    color: $headingColor;
-    font-size: 42px;
+    font-size: 3rem;
     text-align: center;
     padding-top: 2rem;
-    font-family: $bodyFontFamily;
-    font-weight: normal;
   }
 
   .skills-wrapper {
@@ -49,16 +46,8 @@
         padding-right: 4rem;
       }
 
-      h2 {
-        color: $headingColor;
-        font-family: $bodyFontFamily;
-        font-weight: normal;
-      }
-
       p {
         color: $textColor;
-        font-family: $bodyFontFamily;
-        font-weight: normal;
         text-align: justify;
       }
     }
@@ -80,9 +69,6 @@
         padding: .3rem 0 !important;
 
         h4 {
-          color: $headingColor;
-          font-family: $bodyFontFamily;
-          font-weight: normal;
           padding: .5rem 0 !important;
         }
 

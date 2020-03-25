@@ -53,9 +53,6 @@
     .hero-heading {
 
       h1 {
-        font-family: $bodyFontFamily;
-        font-weight: normal;
-        color: $headingColor;
         line-height: 1.5;
 
         @include breakpoint(mobile) {
@@ -81,11 +78,8 @@
     }
 
     .anim-heading {
-      color: $headingColor;
 
       h2 {
-        font-family: $bodyFontFamily;
-        font-weight: normal;
         line-height: 1.5;
 
         @include breakpoint(mobile) {

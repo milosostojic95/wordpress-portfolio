@@ -27,9 +27,6 @@ header {
 
       h1 {
         padding: 0 .5rem;
-        color: $headingColor;
-        font-family: $bodyFontFamily;
-        font-weight: normal;
       }
     }
 
@@ -49,8 +46,6 @@ header {
               text-decoration: none;
               text-transform: uppercase;
               color: $navLinkColor;
-              font-family: $bodyFontFamily;
-              font-weight: normal;
 
               &:hover {
                 color: $navLinkHover;

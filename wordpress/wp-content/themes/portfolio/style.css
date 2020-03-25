@@ -46,15 +46,26 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0 !important;
+  color: #fff !important;
+  font-weight: normal !important;
+  font-family: "Orkney", sans-serif !important;
 }
 
 p {
   font-size: 1rem;
   line-height: 1.4;
+  font-weight: normal;
+  font-family: "Orkney", sans-serif;
 }
 
 span {
   font-size: 1rem;
+}
+
+a {
+  color: #fff;
+  font-family: "Orkney", sans-serif;
+  font-weight: normal;
 }
 
 header {
@@ -101,9 +112,6 @@ header .header-wrapper .nav-logo {
 
 header .header-wrapper .nav-logo h1 {
   padding: 0 .5rem;
-  color: #fff;
-  font-family: "Orkney", sans-serif;
-  font-weight: normal;
 }
 
 header .header-wrapper .main-nav {
@@ -125,8 +133,6 @@ header .header-wrapper .main-nav .nav-wrapper .nav-menu-bar .menu-item a {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  font-family: "Orkney", sans-serif;
-  font-weight: normal;
 }
 
 header .header-wrapper .main-nav .nav-wrapper .nav-menu-bar .menu-item a:hover {
@@ -164,8 +170,6 @@ footer {
 
 footer p {
   color: #7d7d7d;
-  font-family: "Orkney", sans-serif;
-  font-weight: normal;
   margin: 0 !important;
   padding: 1rem 0;
   font-size: .75rem !important;
@@ -243,9 +247,6 @@ footer p {
 }
 
 .hero .hero-wrapper .hero-heading h1 {
-  font-family: "Orkney", sans-serif;
-  font-weight: normal;
-  color: #fff;
   line-height: 1.5;
 }
 
@@ -279,13 +280,7 @@ footer p {
   }
 }
 
-.hero .hero-wrapper .anim-heading {
-  color: #fff;
-}
-
 .hero .hero-wrapper .anim-heading h2 {
-  font-family: "Orkney", sans-serif;
-  font-weight: normal;
   line-height: 1.5;
 }
 
@@ -338,11 +333,8 @@ footer p {
 }
 
 .about h1 {
-  color: #fff;
-  font-size: 42px;
+  font-size: 3rem;
   text-align: center;
-  font-family: "Orkney", sans-serif;
-  font-weight: normal;
 }
 
 @media screen and (min-width: 768px) {
@@ -412,9 +404,6 @@ footer p {
 }
 
 .about .about-wrapper .right-part-about h2 {
-  color: #fff;
-  font-family: "Orkney", sans-serif;
-  font-weight: normal;
   position: relative;
   display: inline-block;
   padding: .5rem 1.5rem;
@@ -432,9 +421,7 @@ footer p {
 }
 
 .about .about-wrapper .right-part-about p {
-  font-family: "Orkney", sans-serif;
   color: #7d7d7d;
-  font-weight: normal;
   text-align: justify;
 }
 
@@ -452,11 +439,6 @@ footer p {
 .about .about-wrapper .right-part-about .info .part {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-}
-
-.about .about-wrapper .right-part-about .info .part h3 {
-  color: #fff;
-  font-family: "Orkney", sans-serif;
 }
 
 .skills {
@@ -484,12 +466,9 @@ footer p {
 }
 
 .skills h1 {
-  color: #fff;
-  font-size: 42px;
+  font-size: 3rem;
   text-align: center;
   padding-top: 2rem;
-  font-family: "Orkney", sans-serif;
-  font-weight: normal;
 }
 
 .skills .skills-wrapper {
@@ -533,16 +512,8 @@ footer p {
   }
 }
 
-.skills .skills-wrapper .left-part-skills h2 {
-  color: #fff;
-  font-family: "Orkney", sans-serif;
-  font-weight: normal;
-}
-
 .skills .skills-wrapper .left-part-skills p {
   color: #7d7d7d;
-  font-family: "Orkney", sans-serif;
-  font-weight: normal;
   text-align: justify;
 }
 
@@ -576,9 +547,6 @@ footer p {
 }
 
 .skills .skills-wrapper .right-part-skills .progress h4 {
-  color: #fff;
-  font-family: "Orkney", sans-serif;
-  font-weight: normal;
   padding: .5rem 0 !important;
 }
 
@@ -677,10 +645,7 @@ footer p {
 }
 
 .contact h1 {
-  font-size: 42px;
-  font-family: "Orkney", sans-serif;
-  font-weight: normal;
-  color: #fff;
+  font-size: 3rem;
   padding-top: 2rem;
   text-align: center;
 }
@@ -732,9 +697,6 @@ footer p {
 }
 
 .contact .contact-wrapper .contact-items .item h4 {
-  color: #fff;
-  font-family: "Orkney", sans-serif;
-  font-weight: normal;
   padding-top: .5rem;
 }
 
@@ -769,18 +731,12 @@ footer p {
 }
 
 .contact .contact-wrapper .social-media h2 {
-  color: #fff;
   font-size: 30px;
-  font-family: "Orkney", sans-serif;
-  font-weight: normal;
 }
 
 .contact .contact-wrapper .social-media a {
   text-decoration: none;
   font-size: 20px;
-  color: #fff;
-  font-family: "Orkney", sans-serif;
-  font-weight: normal;
 }
 
 .contact .contact-wrapper .social-media a i {
@@ -810,9 +766,6 @@ footer p {
 
 .contact .contact-wrapper .contact-form h2 {
   font-size: 30px;
-  color: #fff;
-  font-weight: normal;
-  font-family: "Orkney", sans-serif;
 }
 
 .contact .contact-wrapper .contact-form form {
@@ -914,11 +867,8 @@ footer p {
 
 .hero-btn a {
   text-decoration: none;
-  color: #fff;
   border: 2px solid #fff;
   padding: 1rem 2rem;
-  font-family: "Orkney", sans-serif;
-  font-weight: normal;
 }
 
 .contact-btn {
