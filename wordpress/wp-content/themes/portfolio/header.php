@@ -12,9 +12,6 @@
         <div class="nav-logo">
           <h1>M.</h1>
         </div>
-        <div class="menu-bar">
-          <i class="fa fa-bars" aria-hidden="true"></i>
-        </div>
         <div class="main-nav">
           <nav class="nav-wrapper">
             <?php
