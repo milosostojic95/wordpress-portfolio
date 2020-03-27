@@ -5,10 +5,10 @@
     <div class="row">
       <div class="hero-wrapper">
         <div class="social-icons">
-          <i class="fa fa-github" aria-hidden="true"></i>
-          <i class="fa fa-facebook-official" aria-hidden="true"></i>
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          <a tagert="_blanc" href="https://github.com/milosostojic95"><i class="fa fa-github" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/milos.ostojic.313"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/ostoja_milos/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/milos-ostojic-a97826189/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
         </div>
         <div class="hero-heading">
           <h1><?php echo $hero['main_title']; ?></h1>
