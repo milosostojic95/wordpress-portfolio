@@ -1,6 +1,6 @@
 footer {
   background-color: $navBgColor;
-  margin-top: -1px;
+  height: 5vh;
 
   @include breakpoint(mobile) {
     padding: 0 2rem;
@@ -21,7 +21,7 @@ footer {
   p {
     color: $textColor;
     margin: 0 !important;
-    padding: 1rem 0;
     font-size: .75rem !important;
+    line-height: 5vh;
   }
 }
