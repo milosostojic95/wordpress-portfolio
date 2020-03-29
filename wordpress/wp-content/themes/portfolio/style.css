@@ -108,6 +108,7 @@ header .header-wrapper {
 
 header .header-wrapper .nav-logo {
   background-color: #f26c4f;
+  padding-top: .5rem;
 }
 
 header .header-wrapper .nav-logo h1 {
