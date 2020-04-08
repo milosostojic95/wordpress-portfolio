@@ -20,7 +20,7 @@
   register_nav_menus(
     array(
       'top-menu' => __('Top Menu', 'theme'),
-
+      'second-menu' => __('Second Menu', 'theme')
     )
   );
 
